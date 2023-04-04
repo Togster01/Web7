@@ -1,0 +1,693 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background: url(tyson-moultrie-BQTHOGNHo08-unsplash.jpg);
+    width: 100%;
+
+
+}
+header{
+    background-color: #272424;
+    height: 130px;
+}
+.a{
+    margin-left: 20%;
+    width: 40%;
+    height: 70px;
+    float: left;
+}
+h1{
+    float: left;
+    font-size: 90px;
+    color: crimson;
+    padding-right: 10px;
+    text-shadow: 8px -6px 0px rgb(189, 52, 80);
+    font-weight: 700;
+}
+h2{
+    float: left;
+    text-transform: uppercase;
+    color: aliceblue;
+    width: 100px;
+    padding-top: 15px;
+}
+h2::after{
+    content: "Film Review";
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.b ul{
+    float:left;
+}
+.b li{
+    padding-top: 48px;
+    float: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #d1cece;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 25px;
+    list-style: none;
+}
+.b li:hover{
+    background-color: crimson;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    height: 130px;
+}
+.c{
+    width: 100%;
+}
+.c ul{
+    float: left;
+    padding-left: 70px;
+}
+
+.c li{
+    float: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #d1cece;
+    font-weight: 600;
+    padding-right: 25px;
+    padding-top: 55px;
+    list-style: none;
+}
+.c li:hover{
+    background-color: crimson;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    height: 130px;
+}
+.c button{
+    float: left;
+    margin-top: 40px;
+    height: 55px;
+    width: 130px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+}
+.c button:hover{
+    background-color: crimson;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    color: aliceblue;
+    border-color:crimson;
+}
+nav{
+    background-color: #4290f738;
+    height: 100%;
+}
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav1{
+    margin-left: 20%;
+    padding-top: 40px;
+    width: 100%;
+}
+nav .nav1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#tv{
+    background-color: rgb(38, 61, 90);
+    border-color:  rgb(38, 61, 90);
+    color: aliceblue;
+    height: 55px;
+    width: 120px;
+    text-align: center;
+    font-size: 18px;
+    float: left;
+}
+#tv2{
+    background-color: rgb(38, 61, 90);
+    border-color:  rgb(38, 61, 90);
+    color: rgb(85, 87, 88);
+    height: 55px;
+    width: 1050px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 10px;
+    float: left;
+    padding-left: 15px;
+
+}
+nav button{
+    background-color: #ffffff00;
+    border-color: #27242400;
+    height: 20px;
+    width: 80px;
+    font-size: 18px;
+    float: left;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.nav2{
+    margin-top: 100px;
+    float: right;
+    margin-right: 14%;
+}
+.nav2 p{
+    color: aliceblue;
+    float: left;
+    font-size: 20px;
+    padding-right: 13px;
+    text-transform: uppercase;
+}
+.nav2 i{
+    padding-right: 10px;
+}
+.nav3{
+    margin-left: 13%;
+    width: 76%;
+    height: 500px;
+    background-color: #ffffff00;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+.nav3 img{
+    padding: 10px;
+    height: 500px;
+}
+main{
+    background-color: #252525; 
+    width: 100%;
+}
+main::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+.h3 h3{
+    color: aliceblue;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-left: 14%;
+    margin-top: 90px;
+    float: left; 
+}
+.main2{
+    margin-left: 14%;
+    padding-top: 120px;
+    width: 37%;
+}
+
+.main2 li{
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 30px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.main2 li:hover{
+        background-color: crimson;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        color: aliceblue;
+        border-color:crimson;
+}
+.main3{
+    float: left;
+    margin-left: 14%;
+        width: 57%;
+        height: 350px;
+}
+.main3 img{
+    height: 350px;
+    padding-right: 10px;
+    float: left;
+}
+.important{
+    height: 1400px;
+
+}
+.imp2{
+    height: 600px;
+
+}
+.imp3{
+    height: 600px;
+}
+
+.h4 h3{
+    color: aliceblue;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-left: 14%;
+    padding-top: 60px;
+    float: left;
+
+
+
+}
+.main4 p{
+    float: right;
+    margin-right: 27px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+
+
+}
+.main4{
+    margin-left: 14%;
+    padding-top: 120px;
+    height: 100px;
+
+    width: 37%;
+}
+.main4 ul{
+    height: 50px;
+    float: left;
+    margin-bottom: 30px;
+
+}
+
+.main4 li{
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 30px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.main4 li:hover{
+        background-color: crimson;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        color: aliceblue;
+        border-color:crimson;
+}
+.main5{
+    float: left;
+    margin-left: 13.5%;
+        width: 59%;
+        height: 350px;
+        background-color: #ffffff00;
+        
+
+}
+.main5 img{
+    height: 350px;
+    padding-right: 10px;
+}
+.imp4{
+    float: right;
+    height: 550px;
+    width: 400px;
+    margin-right: 150px;
+    
+}
+.a{
+    float: left;
+}
+.foto{
+    height: 80px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.foto2{
+    height: 80px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.foto3{
+    height: 80px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.foto4{
+    height: 80px;
+    width: 250px;
+    margin-bottom: 20px;
+} 
+.a img{
+    height: 80px;
+    width: 60px;
+    float: left;
+}
+.a p{
+    padding-left: 30px;
+    font-size: 15px;
+    float: left;
+    color: aliceblue;
+    font-size: 17px;
+
+} 
+.a .actor{
+    padding-left: 30px;
+    font-size: 15px;
+    float: left;
+    color: rgb(85, 88, 92);
+    font-size: 18px;
+}
+.actor1 a{
+    float: left;
+    height: 40px;
+    width: 200px;
+    margin-left: 90px;
+    color: #636161;
+    text-decoration: none;
+    font-size: 20px;
+} 
+.h5 h3{
+    color: aliceblue;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-right: 24%;
+    padding-top: 60px;
+    float: right;
+}
+.main6{
+    height: 412px;
+    width: 65%;
+    margin-left: 13%;
+    margin-top: 50px;
+    float: left;
+}
+.video iframe{
+    height: 462px;
+    width: 60%;
+    float: left;
+}
+
+.b{
+    float: left;
+}
+
+.b img{
+    height: 90px;
+    width: 125px;
+    float: left;
+} 
+.foto5{
+    height: 90px;
+    width: 300px;
+    margin-bottom: 3px;
+}
+.foto6{
+    height: 90px;
+    width: 247px;
+    margin-bottom: 3px;
+}
+.foto7{
+    height: 90px;
+    width: 250px;
+    margin-bottom: 3px;
+}
+.foto8{
+    height: 90px;
+    width: 320px;
+    margin-bottom: 3px;
+
+}
+.foto9{
+    height: 90px;
+    width: 270px;
+    margin-bottom: 3px;
+
+} 
+.b p{
+    padding-left: 10px;
+    font-size: 15px;
+    float: left;
+    color: aliceblue;
+    font-size: 17px;
+
+} 
+.b .actor2{
+    padding-left: 10px;
+    font-size: 15px;
+    float: left;
+    color: rgb(85, 88, 92);
+    font-size: 18px;
+}
+footer{
+    margin-top: 100px;
+}
+.end1{
+    margin-left: 11%;
+    height: 350px;
+    width: 65%;
+}
+.mainblock1{
+    height: 350px;
+    width: 20%;
+    float: left;
+}
+.block1{
+    height: 150px;
+    width: 100%;
+}
+.block1 h4{
+        padding-left: 60px;
+        float: left;
+        font-size: 90px;
+        color: crimson;
+        padding-right: 10px;
+        text-shadow: 8px -6px 0px rgb(189, 52, 80);
+        font-weight: 700;
+}
+.block1 h5{
+    float: left;
+    text-transform: uppercase;
+    color: aliceblue;
+    width: 100px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.block1 h5::after{
+    content: "Film Review";
+    display: block;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.block2{
+    padding-top: 50px;
+    width: 100%;
+}
+.block2 p::first-line{
+    height: 150px;
+    margin-top: 150px;
+}
+.block2 p{
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+
+
+}
+.add1{
+    float: left;
+    padding-left: 30px;
+}
+.add1::after{
+    content: "(+01)3023426289";
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+}
+.mainblock2{
+    float: left;
+    height: 350px;
+    width: 20%;
+    color: aliceblue;
+}
+.block3 h6{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.block4{
+    padding-top: 100px;
+}
+.block4 ul{
+    text-align: center;
+}
+.block4 li{
+    list-style: none;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.block4 li:first-child{
+    font-size: 25px;
+
+}
+.mainblock3{
+    float: left;
+    height: 350px;
+    width: 20%;
+    color: aliceblue;
+}
+
+.block5 h6{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.block6{
+    padding-top: 100px;
+}
+.block6 ul{
+    text-align: center;
+}
+.block6 li{
+    list-style: none;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.mainblock4{
+    float: left;
+    height: 350px;
+    width: 20%;
+    color: aliceblue;
+}
+
+.block7 h6{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.block8{
+    padding-top: 100px;
+}
+.block8 ul{
+    text-align: center;
+}
+.block8 li{
+    list-style: none;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.mainblock4{
+    float: left;
+    height: 350px;
+    width: 20%;
+}
+
+.block7 h6{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.block8{
+    padding-top: 100px;
+}
+.block8 ul{
+    text-align: center;
+}
+.block8 li{
+    list-style: none;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.mainblock5{
+    float: left;
+    height: 350px;
+    width: 20%;
+    color: aliceblue;
+}
+
+.block9 h6{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.block10{
+    padding-top: 80px;
+}
+.block10 ul{
+    text-align: center;
+}
+.block10 li{
+    list-style: none;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+#email1{
+    background-color: rgb(38, 61, 90);
+    border-color:  rgb(38, 61, 90);
+    color: rgb(253, 238, 238);
+    height: 40px;
+    width: 200px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-left: 10px;
+
+}
+
+.abc{
+    background-color: #ffffff00;
+    border-color: rgba(240, 248, 255, 0);
+    color: #c40b0b;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 32px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.finish{
+    height: 80px;
+    background-color:#222222;
+    color: #aca1a1;
+}
+.copy{
+    padding-left: 15%;
+    padding-top: 20px;
+    float: left;
+}
+.copy2 {
+    float: right;
+    padding-right: 300px;
+    padding-top: 50px;
+
+}
+.copy2 a{
+    text-decoration: none;
+    color: #aca1a1;
+}
+
